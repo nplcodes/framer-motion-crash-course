@@ -40,3 +40,20 @@ button{
   width: 10rem;
   cursor: pointer;
 }
+.hover-tap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: grey;
+}
+.box-to-tap-and-hover{
+  background-color: #fff;
+  padding: 3rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+}
+.paragraph{
+  width: 600px;
+}
