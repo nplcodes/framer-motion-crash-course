@@ -11,10 +11,8 @@ function HoverTap() {
           scale: 1.1
         }}
         transition={{
-          layout: {
             duration: 1,
             type: "spring"
-          }
         }}
         layout
         onClick={()=> setShowcard(!showCard)}
@@ -29,6 +27,10 @@ function HoverTap() {
           animate={{
             opacity: 1
           }}
+          transition={{
+              duration: 1,
+              type: "spring"
+            }}
           >
             When a new component is added that has a layoutId prop that matches an existing component, it will automatically animate out from the old component.
           </motion.p>
