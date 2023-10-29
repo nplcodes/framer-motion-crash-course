@@ -1,6 +1,7 @@
 import './App.css';
 import HoverTap from './components/HoverAndTap/HoverTap';
 import ScrollPage from './components/Scroll/ScrollPage';
+import ScrollTriggeredAnimation from './components/ScrollTriggeredAnimation/ScrollTriggeredAnimation';
 import ShowExit from './components/TextAnimations/BoxShowAndExit/ShowExit';
 // import Box1 from './components/Box1/Box1';
 // import Box2 from './components/Box2/Box2';
@@ -20,7 +21,8 @@ function App() {
         {/* <TextMotion /> */}
         {/* <ShowExit /> */}
         {/* <HoverTap /> */}
-        <ScrollPage />
+        {/* <ScrollPage /> */}
+        <ScrollTriggeredAnimation />
     </div>
   );
 }
